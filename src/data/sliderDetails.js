@@ -9,28 +9,28 @@ import slide8 from "../assets/Home/im8.svg"
 
 const sliderDetails = [
     {
-        title: "Expense Tracking",
-        desc: "Simple way to track your expenses",
+        title: "1-1 Betting",
+        desc: "1-1 betting with your friends",
         imgUrl: slide1
     },
     {
-        title: "Budgeting",
-        desc: "Robust features for budgeting",
+        title: "Real Time Updates",
+        desc: "Real time data changes and updation",
         imgUrl: slide2
     },
     {
-        title: "Financial Planning",
-        desc: "Systematic plan for your bright future",
+        title: "Security Measures",
+        desc: "Security measures for your account",
         imgUrl: slide3
     },
     {
-        title: "Opportunities & Growth",
-        desc: "Career and education resources",
+        title: "User Engagement",
+        desc: "User engagement and chatting for more fun",
         imgUrl: slide4
     },
     {
-        title: "OCR Data Entry",
-        desc: "Used to scan bills and automate data entry process",
+        title: "Dashboard",
+        desc: "Dashboard for your betting history and records",
         imgUrl: slide5
     },
     {
@@ -39,13 +39,13 @@ const sliderDetails = [
         imgUrl: slide6
     },
     {
-        title: "Future Savings",
-        desc: "Personalized support for your future savings",
+        title: "Transaction Management",
+        desc: "Transaction management for your betting",
         imgUrl: slide7
     },
     {
-        title: "Analytical Tools",
-        desc: "For proper Budget and Expense Analysis",
+        title: "Support and Help Center",
+        desc: "Support and help center for your queries",
         imgUrl: slide8
     }
 ];

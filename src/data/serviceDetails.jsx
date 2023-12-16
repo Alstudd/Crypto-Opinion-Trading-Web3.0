@@ -3,18 +3,18 @@ import { MdAnalytics, MdSafetyCheck, MdBook } from 'react-icons/md'
 const ourServices = [
     {
         icon: <MdSafetyCheck />,
-        heading: "Financial Guidance",
-        detail: "Ultimate Guide to budgeting and money saving"
+        heading: "High Security Checks",
+        detail: "Security is guranteed. We always maintain privacy and maintain the quality of our products"
     },
     {
         icon: <MdAnalytics />,
         heading: "Robust Analysis",
-        detail: "Budget and Expenses Analytics"
+        detail: "Transactions and Bets Analytics"
     },
     {
         icon: <MdBook />,
-        heading: "Educational Benefits",
-        detail: "Resources at your fingertips for proper financial planning."
+        heading: "User Registration/Login",
+        detail: "Register and Login to your account to access your data"
     },
 ];
 
