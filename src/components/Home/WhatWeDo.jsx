@@ -8,9 +8,7 @@ export default function WhatWeDo() {
         What we do?
       </h1>
       <p className="ml-10 text-xl font-medium text-white sm:w-full w-[20rem]">
-        <span className="text-[#00b386]">BetCrypt</span> works to enhance the lives of individuals all across the world through
-        a combination of safety features, support networks, educational
-        resources, and saving techniques. 
+        <span className="text-[#00b386]">BetCrypt</span> is a fun opinion trading platform that allows users to bet on the outcome of events. Users can bet on the outcome of events such as sports, politics, and more. Users can also create their own events and invite others to bet on them.
       </p>
       <div className="ml-10 relative  rounded-2xl drop-shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
         <img className="rounded-2xl md:w-[48rem] sm:w-[28rem] w-full" src={pic1} alt="" />
