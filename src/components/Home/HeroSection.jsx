@@ -32,7 +32,7 @@ export default function HeroSection() {
               delay: 0.5
             }}
             className="font-bold text-4xl leading-[3rem] tracking-[-0.06rem] md:leading-[3.75rem] 2xl:leading-[4.5rem] 2xl:text-6xl md:text-5xl text-white">
-            <span className='text-[#00b386]'>BetCrypt -</span> Betting via Cryptocurrency
+            <span className='text-[#00b386]'>BetCrypt -</span> Trade Opinions via Cryptocurrency
           </motion.h1>
           <motion.p
             initial={{ y: "2rem", opacity: 0 }}
@@ -42,7 +42,7 @@ export default function HeroSection() {
               type: "spring",
               delay: 0.5
             }}
-            className="font-normal text-white"><i><span className="text-[#00b386]">BetCrypt</span></i> is more than just an app, it's a comprehensive solution created for helping individuals bet on various things via crypto</motion.p>
+            className="font-normal text-white"><i><span className="text-[#00b386]">BetCrypt</span></i> is more than just an app, it's a comprehensive solution created for individuals to challenge their friends and have fun.</motion.p>
         </div>
         <motion.div 
         initial={{ x: "-7rem", opacity: 0 }}

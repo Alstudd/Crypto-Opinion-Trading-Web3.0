@@ -13,7 +13,7 @@ const ourServices = [
     },
     {
         icon: <MdBook />,
-        heading: "User Registration/Login",
+        heading: "User Registration",
         detail: "Register and Login to your account to access your data"
     },
 ];
