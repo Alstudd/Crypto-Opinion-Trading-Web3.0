@@ -18,7 +18,7 @@ export default function HeroSection() {
             delay: 0.5
           }}
           >
-            <a href="/about"><div className="flex py-1 px-2 items-start gap-2.5 rounded-[2.3125rem] border-2 border-[#00b386] bg-white">
+            <a href="/"><div className="flex py-1 px-2 items-start gap-2.5 rounded-[2.3125rem] border-2 border-[#00b386] bg-white">
               <p className="font-normal pl-2">About Us</p>
               <div className="zoom-in"><figure><img src={Arrow} /></figure></div>
             </div></a>

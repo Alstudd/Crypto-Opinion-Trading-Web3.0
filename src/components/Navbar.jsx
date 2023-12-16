@@ -1,6 +1,6 @@
 import React from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiFillPlayCircle, AiOutlineClose } from "react-icons/ai";
 
 import logo from "../images/logo.svg";
 
@@ -21,8 +21,11 @@ const Navbar = () => {
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        <li className="bg-[#00b386] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#f9cb6f]">
-          Login
+        <li className="bg-[#00b386] flex justify-center items-center py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#f9cb6f]">
+              <AiFillPlayCircle className="text-white mr-2" />
+              <p className="text-white text-base font-semibold">
+                Connect Wallet
+              </p>
         </li>
       </ul>
       <div className="flex relative">
