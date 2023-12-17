@@ -12,10 +12,10 @@ const Footer = () => (
       </div>
       </a>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Bets</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Transactions</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Wallets</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Forum</p>
+        <a href="/"><p className="text-white text-base text-center mx-2 cursor-pointer">Home</p></a>
+        <a href="#"><p className="text-white text-base text-center mx-2 cursor-pointer">Bets</p></a>
+        <a href="#"><p className="text-white text-base text-center mx-2 cursor-pointer">Wallets</p></a>
+        <a href="#"><p className="text-white text-base text-center mx-2 cursor-pointer">Transactions</p></a>
       </div>
     </div>
 

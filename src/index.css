@@ -13,6 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
 .gradient-bg-welcome {
   background-color:#0f0e13;
   background-image: 
