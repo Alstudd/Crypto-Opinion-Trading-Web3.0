@@ -53,8 +53,8 @@ export default function HeroSection() {
           delay: 0.5
         }}
         className="flex flex-row gap-4 py-1 pl-4 md:py-4">
-          <button className="py-2.5 px-5 rounded-lg bg-white border border-[#D0D5DD]"><a href="/dashboard"><div className='flex gap-3'><div className='zoom-in'><figure className='pt-1'><FaAddressBook /></figure></div><div>Get Started</div></div></a></button>
-          <button className="py-2.5 px-5 rounded-lg bg-[#00b386] text-white hover:text-black hover:bg-white hover:border-[#D0D5DD]"><a href="/contact">Contact Us</a></button>
+          <button className="py-2.5 px-5 rounded-lg bg-white border border-[#D0D5DD]"><a href="/bet"><div className='flex gap-3'><div className='zoom-in'><figure className='pt-1'><FaAddressBook /></figure></div><div>Get Started</div></div></a></button>
+          <button className="py-2.5 px-5 rounded-lg bg-[#00b386] text-white hover:text-black hover:bg-white hover:border-[#D0D5DD]"><a href="#">Contact Us</a></button>
         </motion.div>
       </div>
       <motion.div

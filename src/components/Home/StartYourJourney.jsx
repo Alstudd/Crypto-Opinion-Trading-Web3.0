@@ -26,7 +26,7 @@ export default function StartYourJourney() {
           </div>
           <p className="text-xl text-[#959595] font-medium">or</p> */}
           <div className="flex justify-center items-center gap-5">
-            <a href="/dashboard">
+            <a href="/bet">
               <button className="flex justify-center items-center px-8 py-4 rounded-3xl text-white bg-[#00b386] text-2xl">
                 Get Started
               </button>

@@ -12,13 +12,15 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
-    <nav className="w-full flex justify-center items-center lg:gap-32 gap-6 p-4">
+    <nav className="w-full flex justify-between lg:justify-center items-center lg:gap-32 gap-6 p-4">
+      <a href="/">
       <div className="flex justify-center items-center gap-2">
         <img src={logo} alt="logo" className="w-16 cursor-pointer" />
         <h1 className="text-white text-4xl font-extrabold">BetCrypt</h1>
       </div>
+      </a>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+        {["Bets", "Transactions", "Wallets", "Forum"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
         <li className="bg-[#00b386] flex justify-center items-center py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#f9cb6f]">
@@ -51,7 +53,7 @@ const Navbar = () => {
             <li className="text-white md:hidden cursor-pointer text-xl w-full my-2">
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
             </li>
-            {["Market", "Exchange", "Tutorials", "Wallets"].map(
+            {["Bets", "Transactions", "Wallets", "Forum"].map(
               (item, index) => (
                 <NavBarItem
                   key={item + index}
