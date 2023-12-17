@@ -1,13 +1,13 @@
 import "../../css/hero.css";
 
-import pic1 from "../../assets/Home/building1.svg"
-import pic2 from "../../assets/Home/building2.svg"
-import pic3 from "../../assets/Home/building3.svg"
-import pic4 from "../../assets/Home/building4.svg"
-import pic5 from "../../assets/Home/building5.svg"
-import pic6 from "../../assets/Home/building6.svg"
+import pic1 from "../../assets/Home/building1.svg";
+import pic2 from "../../assets/Home/building2.svg";
+import pic3 from "../../assets/Home/building3.svg";
+import pic4 from "../../assets/Home/building4.svg";
+import pic5 from "../../assets/Home/building5.svg";
+import pic6 from "../../assets/Home/building6.svg";
 
-import plane from "../../assets/Home/plane.svg"
+import plane from "../../assets/Home/plane.svg";
 
 export default function StartYourJourney() {
   return (
@@ -26,7 +26,7 @@ export default function StartYourJourney() {
           </div>
           <p className="text-xl text-[#959595] font-medium">or</p> */}
           <div className="flex justify-center items-center gap-5">
-            <a href="/bet">
+            <a href="http://localhost:1234">
               <button className="flex justify-center items-center px-8 py-4 rounded-3xl text-white bg-[#00b386] text-2xl">
                 Get Started
               </button>

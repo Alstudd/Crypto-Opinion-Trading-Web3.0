@@ -20,14 +20,22 @@ const Navbar = () => {
         </div>
       </a>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        <li className="mx-4 cursor-pointer"><a href="/">Home</a></li>
-        <li className="mx-4 cursor-pointer"><a href="#">Bets</a></li>
-        <li className="mx-4 cursor-pointer"><a href="#">Wallets</a></li>
-        <li className="mx-4 cursor-pointer"><a href="#">Transactions</a></li>
+        <li className="mx-4 cursor-pointer">
+          <a href="/">Home</a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a href="/bet">Bets</a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a href="#">Wallets</a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a href="#">Transactions</a>
+        </li>
         <li className="bg-[#00b386] flex justify-center items-center py-2 px-7 mr-4 rounded-full cursor-pointer hover:bg-[#f9cb6f] lg:ml-20 ml-0">
           <AiFillPlayCircle className="text-white mr-2" />
           <p className="text-white text-base font-semibold">
-            Connect Wallet
+            <a href="http://localhost:1234">Connect Wallet</a>
           </p>
         </li>
       </ul>
@@ -54,10 +62,18 @@ const Navbar = () => {
             <li className="text-white md:hidden cursor-pointer text-xl w-full my-2">
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
             </li>
-            <li className="mx-4 cursor-pointer my-2 text-lg"><a href="/">Home</a></li>
-            <li className="mx-4 cursor-pointer my-2 text-lg"><a href="#">Bets</a></li>
-            <li className="mx-4 cursor-pointer my-2 text-lg"><a href="#">Wallets</a></li>
-            <li className="mx-4 cursor-pointer my-2 text-lg"><a href="#">Transactions</a></li>
+            <li className="mx-4 cursor-pointer my-2 text-lg">
+              <a href="/">Home</a>
+            </li>
+            <li className="mx-4 cursor-pointer my-2 text-lg">
+              <a href="/bet">Bets</a>
+            </li>
+            <li className="mx-4 cursor-pointer my-2 text-lg">
+              <a href="#">Wallets</a>
+            </li>
+            <li className="mx-4 cursor-pointer my-2 text-lg">
+              <a href="#">Transactions</a>
+            </li>
           </ul>
         )}
       </div>

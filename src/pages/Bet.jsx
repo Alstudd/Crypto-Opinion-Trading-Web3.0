@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+// import "../styles.css";
+import Bets from "../components/Home/Bets";
 
 function Bet() {
   return (
-    <div>Bet</div>
-  )
+    <div>
+      <Bets />
+    </div>
+  );
 }
 
-export default Bet
+export default Bet;
