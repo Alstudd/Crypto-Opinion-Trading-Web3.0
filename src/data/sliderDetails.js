@@ -1,5 +1,5 @@
 import slide1 from "../assets/Home/im1.svg"
-import slide2 from "../assets/Home/im2.svg"
+import slide2 from "../assets/Home/mainPic.svg"
 import slide3 from "../assets/Home/im3.svg"
 import slide4 from "../assets/Home/im4.svg"
 import slide5 from "../assets/Home/im5.svg"

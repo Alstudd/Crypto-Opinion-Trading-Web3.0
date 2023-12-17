@@ -2,7 +2,7 @@ import { FaAddressBook } from 'react-icons/fa';
 import Arrow from "../../assets/Home/Arrow.svg";
 import '../../css/animations.css';
 import { motion } from 'framer-motion';
-import heroImg from "../../assets/Home/heroPic.svg"
+import heroImg from "../../assets/Home/im2.svg"
 
 export default function HeroSection() {
   return (
