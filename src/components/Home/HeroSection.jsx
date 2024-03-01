@@ -70,7 +70,7 @@ export default function HeroSection() {
           className="flex flex-row gap-4 py-1 pl-4 md:py-4"
         >
           <button className="py-2.5 px-5 rounded-lg bg-white border border-[#D0D5DD]">
-            <a href="#" target="_blank">
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">
               <div className="flex gap-3">
                 <div className="zoom-in">
                   <figure className="pt-1">
