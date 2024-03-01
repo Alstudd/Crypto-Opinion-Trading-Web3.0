@@ -35,7 +35,7 @@ const Navbar = () => {
         <li className="bg-[#00b386] flex justify-center items-center py-2 px-7 mr-4 rounded-full cursor-pointer hover:bg-[#f9cb6f] lg:ml-20 ml-0">
           <AiFillPlayCircle className="text-white mr-2" />
           <p className="text-white text-base font-semibold">
-            <a href="http://localhost:1234">Connect Wallet</a>
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">Connect Wallet</a>
           </p>
         </li>
       </ul>

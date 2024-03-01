@@ -26,7 +26,7 @@ export default function StartYourJourney() {
           </div>
           <p className="text-xl text-[#959595] font-medium">or</p> */}
           <div className="flex justify-center items-center gap-5">
-            <a href="http://localhost:1234">
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">
               <button className="flex justify-center items-center px-8 py-4 rounded-3xl text-white bg-[#00b386] text-2xl">
                 Get Started
               </button>

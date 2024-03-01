@@ -18,7 +18,7 @@ export default function HeroSection() {
               delay: 0.5,
             }}
           >
-            <a href="/">
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">
               <div className="flex py-1 px-2 items-start gap-2.5 rounded-[2.3125rem] border-2 border-[#00b386] bg-white">
                 <p className="font-normal pl-2">About Us</p>
                 <div className="zoom-in">
@@ -70,7 +70,7 @@ export default function HeroSection() {
           className="flex flex-row gap-4 py-1 pl-4 md:py-4"
         >
           <button className="py-2.5 px-5 rounded-lg bg-white border border-[#D0D5DD]">
-            <a href="http://localhost:1234">
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">
               <div className="flex gap-3">
                 <div className="zoom-in">
                   <figure className="pt-1">
@@ -82,7 +82,7 @@ export default function HeroSection() {
             </a>
           </button>
           <button className="py-2.5 px-5 rounded-lg bg-[#00b386] text-white hover:text-black hover:bg-white hover:border-[#D0D5DD]">
-            <a href="#">Contact Us</a>
+            <a href="https://github.com/Alstudd/Crypto-Opinion-Trading-Web3.0" target="_blank">Contact Us</a>
           </button>
         </motion.div>
       </div>
